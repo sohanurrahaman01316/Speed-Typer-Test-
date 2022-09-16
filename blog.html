@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>type | Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome link  -->
+    <script
+      src="https://kit.fontawesome.com/5b6d9a3ce5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="container border-bottom py-3">
+      <div class="nav-wrapper">
+        <div class="nav-items">
+          <li><a href="index.html" class="typingFile">Typing</a></li>
+        </div>
+      </div>
+    </header>
+    <!-- nabar end -->
+
+    <!-- answer of some question  -->
+    <br /><br />
+
+
+   
+
+    <div class="accordion container" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            <h5>deffernce between local storage and session storage</h5>
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <div class="accordion-wrapper">
+              <div class="accordion_item_wrapper">
+                <h3>Local Storage</h3>
+                <li>Local storage is the most recent mechanism</li>
+                <li>It allows for larger amounts of data to be stored, but the data is not deleted when the browser is closed</li>
+                <li>Local storage is useful for storing data that the user will need to access later, such as offline data.</li>
+                <li>
+                  Local Storage is a type of web storage that allows JavaScript to store and access data right in the browser.
+                </li>
+                <li>The data in Local Storage is stored in key/value pairs</li>
+              </div>
+              <div class="accordion_item_wrapper">
+                <h3>Session Storage</h3>
+                <li>Session Storage is a type of web storage that allows web applications to store data locally within the user's browser.</li>
+                <li>Session Storage data is only available to the site that created it.
+
+                </li>
+                <li>Session Storage data is not shared with other sites.
+
+                </li>
+                <li>
+                  Session Storage data is not persistent, meaning it is only available for the duration of the user's session on a site.
+                  </li>
+                <li>Session Storage data is specific to the browser tab in which it was created.
+
+                </li>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+           <h5>Global Scope vs Block scope  </h5>
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <div class="accordion-wrapper">
+                <div class="accordion_item_wrapper accordion_item_wrapper accordion_item_wrapper_function">
+                  <h3>Local Scope</h3>
+                  <li>Local scope contains things defined inside code blocks</li>
+                  <li>A local variable has local scope</li>
+                  <liA local variable is only accessible where it’s declared</li>
+                  <li>If the return statement is missing, or there's no expression after return statement, the regular function implicitely returns undefined
+                  </li>
+                  <li>The regular functions are the usual way to define methods on classes.</li>
+                </div>
+                <div class="accordion_item_wrapper accordion_item_wrapper_function">
+                  <h3>Global Scope</h3>
+                  <li>Global scope contains all of the things defined outside of all code blocks.</li>
+                  <li>A code block simply consists of grouped statements inside curly braces ({ })</li>
+                  <li> if statement, loops, function are examples of structure that create a code block</li>
+                  <li>If A global variable has global scope.  
+                    </li>
+                  
+                </div>
+            </div>
+           </div>
+         </div>
+        </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            <h5>Event loop of Javascript</h5>
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p> <div class="accordion-item">
+      
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+              <p>The event loop is a constantly running process that monitors both the callback queue and the call stack. If the call stack is not empty, the event loop waits until it is empty and places the next function from the callback queue to the call stack.
+
+              </p>
+            <h5>Stack </h5>
+            <p>The stack is a data structure that follows Last In First Out (LIFO) principle. The element that is added at last is accessed at first.</p>
+              <br> 
+              <h5>Heap</h5>  
+              <p>Objects are allocated in a heap which is just a name to denote a large (mostly unstructured) region of memory.
+
+              </p>
+              <br>
+              <h5>Queue</h5>
+              <p>
+                A JavaScript runtime uses a message queue, which is a list of messages to be processed. Each message has an associated function that gets called to handle the message.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--  -->
+
+<div class="container-undefined">
+  <div class="div-undefined">
+    <h1>How we get undefiend</h1>
+        <p> 1. If you access a non-existing property of an object, you’ll get undefined
+          2. Accessing a non-existing property of an object returns undefined.
+        
+          3. A function that doesn’t have a return statement implicitly returns undefined
+         4. Accessing a out-of-bounds array element returns undefined.
+         </p> 
+    
+        
+  </div>
+</div>
+
+    <!-- bootstrap cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js file link  -->
+  </body>
+</html>
